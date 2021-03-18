@@ -1,0 +1,136 @@
+*{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+/*--------Headers-------*/
+
+h1{
+    font-size: 200%;
+    color: #fff;
+}
+
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    padding:7px 0px;
+    background-color: #36C3D9;
+    color: #000000;
+    box-shadow: 0px 2px 30px 2px #000;
+    margin-bottom: 30px;
+
+}
+
+/*--------The header-------*/
+
+header{
+    padding: 20px 0px 0px 20px;
+   background-color: #0a316f;
+    height: 165px;
+    box-shadow:  0px 2px 30px 2px #312525; 
+}
+header p{
+    color: #fff;
+    
+}
+header img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+    
+}
+
+
+/*--------The Side container-------*/
+
+.sidebar{
+    background-color: #0a316f;
+    margin-top: -1px;
+    box-shadow:  0px 2px 30px 2px #312525; 
+    color: #c1aeae;
+    height: 800px;
+}
+.contacts{
+    margin: 40px 0px;
+    font-size: 90%;
+}
+
+.contacts ion-icon{
+    margin-right: 10px;
+}
+
+.side-section{
+    height: 100%;
+    
+}
+
+.sidebar ul{
+    list-style: none;
+    margin-top: 15px;
+    text-align: left;
+    margin-left: -30px;
+    font-size: 90%;
+}
+
+.contacts li{
+        font-size: 90%;
+}
+.hoppies{
+    margin: 40px 0px;
+    font-size: 90px;
+    
+}
+.hoppies li{
+    font-size: 90px;
+    
+    
+}
+
+.hoppies ion-icon{
+   
+    margin-right: 10px;
+    
+    
+}
+.hoppies span{
+    font-size: 90%;
+    color: #fff;
+    margin-left: 10px;
+    
+}
+
+.contacts span,
+.contacts a:link,
+.contacts a:visited{
+    font-size: 90%;
+    color: #fff;
+}
+
+.contacts a{
+    text-decoration: none;
+    
+}
+
+.contacts a:hover,
+.contacts a:active{
+    color: aquamarine;
+}
+/*-------------------------The main container----*/
+.block{ 
+padding: 20px;
+
+
+}
+.block p{
+    font-size: 80%;
+}
